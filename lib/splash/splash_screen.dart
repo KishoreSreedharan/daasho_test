@@ -36,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen>
     _controller.forward();
 
     // Navigate to main screen after 2 seconds
-    Future.delayed(const Duration(milliseconds: 500), () {
+    Future.delayed(const Duration(seconds: 2), () {
       if (mounted) {
         Navigator.of(context).pushReplacement(
           PageRouteBuilder(
@@ -94,7 +94,7 @@ class _SplashScreenState extends State<SplashScreen>
                 const Text(
                   'Fresh Meals',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 1.2,
@@ -103,7 +103,7 @@ class _SplashScreenState extends State<SplashScreen>
                 const SizedBox(height: 6),
                 const Text(
                   'Delivered to your doorstep',
-                  style: TextStyle(color: Colors.white70, fontSize: 14),
+                  style: TextStyle(color: Colors.black, fontSize: 14),
                 ),
               ],
             ),

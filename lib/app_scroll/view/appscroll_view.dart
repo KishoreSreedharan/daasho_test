@@ -161,7 +161,7 @@ class _AppscrollViewState extends State<AppscrollView> {
                   },
                 ),
               ),
-              // Page indicator dots
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: List.generate(
